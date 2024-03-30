@@ -1,25 +1,27 @@
-html, body {
-  margin: 0px;
-  background-color: #2F4F30;
+html,  body{
+  margin: 0;
+  background: #2f4f30;
   color: white;
 }
-
-
-.titulo {
+.titulo{
   text-align: center;
   background-color: black;
   color: white;
   padding: 20px;
   font-size: 25px;
 }
-
-.carta {
-  position: relative;
+.carta{
   width: 150px;
+  position: relative;
   left: 100px;
-  margin-left: -75px;
+  margin-left: -75px
 }
 
-#computadora-cartas, #jugador-cartas {
-  height: 240px;
+#contenedor-jugadores .player{ 
+height: 280px;
+opacity: .5;
+}
+
+#contenedor-jugadores .player.active{
+  opacity: 1;
 }
